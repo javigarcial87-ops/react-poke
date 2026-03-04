@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import SearchBar from "./components/SearchBar";
-import PokemonCard from "./components/PokemonCard";
+import SearchBar from "./components/SearchBar.jsx/index.js";
+import PokemonCard from "./components/PokemonCard.jsx";
 import "./App.css";
 
 function App() {
