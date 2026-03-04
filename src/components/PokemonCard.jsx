@@ -1,11 +1,12 @@
+import styles from "./PokemonCard.module.css";
 function PokemonCard({ pokemon }) {
 
   return (
-    <div className="pokemon-card">
+    <div className={styles.card}>
 
-      <h2>{pokemon.name}</h2>
+      <h2 className={styles.title}>{pokemon.name}</h2>
 
-      <img
+      <img className={styles.image}
         src={pokemon.sprites.front_default}
         alt={pokemon.name}
       />
